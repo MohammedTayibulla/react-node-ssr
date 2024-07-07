@@ -97,10 +97,10 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-const PORT = process.env.PORT || 4000;
+const port = 4001;
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:4001`);
-  console.log(`Server is running at http://localhost:10000 on https://react-node-ssr.onrender.com server`);
+  
 });
 
 module.exports = app;
