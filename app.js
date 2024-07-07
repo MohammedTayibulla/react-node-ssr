@@ -97,9 +97,8 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-const port = 4001;
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:4001`);
+app.listen(() => {
+  console.log(`Server is running`);
   
 });
 
